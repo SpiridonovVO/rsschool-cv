@@ -1,14 +1,20 @@
 # Spiridonov Vitaly
+
+
 ## Contacts
 - **Location:** Russia, Surgut
 - **Phone:** +7 (982) 190-16-29
 - **Email:** SpiridonovVO@ya.ru
 - **GitHub:** [SpiridonovVO](https://github.com/SpiridonovVO)
+
+
 ## About Me
 I am 27 years old. I moved to Moscow in the summer of 2021 to find something that I would like to do.\
 I started studying web design, and I was interested in front-end. I realized that I wanted to do exactly what I once wanted to do in Surgut.
 
 Therefore, my goal is to gain knowledge in the field of front-end and start working in the direction that I am interested in.
+
+
 ## Skills
 - *HTML*
 - *CSS/SASS*
@@ -18,6 +24,8 @@ Therefore, my goal is to gain knowledge in the field of front-end and start work
 - *JavaScript (basic)*
 - *Photoshop*
 ## Code Examples
+
+
 ```
 const addDigits = (num) => {
     let str = String(num);
@@ -32,6 +40,8 @@ const addDigits = (num) => {
     return addDigits(result);
 }
 ```
+
+
 ## Education
 > **Surgut State Pedagogical University**\
 > __2013 - 2017__, Economy
