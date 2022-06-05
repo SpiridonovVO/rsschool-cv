@@ -39,6 +39,8 @@ const addDigits = (num) => {
 > __2017 - 2019__, Sociology, sociology of regions
 > Surgut State Pedagogical University\
 > __2019 - 2022__, Sociology, institutional sociology
+
+
 ## Languages
 - Russian - native
 - English - A2
