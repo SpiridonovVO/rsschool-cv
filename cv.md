@@ -6,12 +6,25 @@
 - **GitHub:** [SpiridonovVO](https://github.com/SpiridonovVO)
 ## About Me
 ## Skills
+- *HTML*
+- *CSS/SASS*
+- *Figma*
+- *Adobe Illustrator*
+- *Python (basic)*
+- *JavaScript (basic)*
 ## Code Examples
+```
+let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+```
 ## Education
+> **Surgut State Pedagogical University**\
+> __2013 - 2017__, Economy
 > Surgut State Pedagogical University\
-> 2013 - 2017, Economy
+> __2017 - 2019__, Sociology, sociology of regions
 > Surgut State Pedagogical University\
-> 2017 - 2019, Sociology, sociology of regions
-> Surgut State Pedagogical University\
-> 2019 - 2022, Sociology, institutional sociology
+> __2019 - 2022__, Sociology, institutional sociology
 ## Languages
