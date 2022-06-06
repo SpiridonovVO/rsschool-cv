@@ -1,1 +1,1 @@
-https://SpiridonovVO.github.io/rsschool-cv/cv
+https://SpiridonovV.github.io/rsschool-cv/
