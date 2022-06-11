@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   bottom: 0;
+   font-family: "Montserrat";
+   
+   text-decoration: none;
+   color: black;
+   
+}
+*,*:before,*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+nav, footer, header, aside {
+   display: block;
+}
+html, body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 16px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input, button, textarea {
+   font-family: inherit;
+}
+ul li {list-style: none;}
+ol li {list-style: none;}
+
+header, footer {
+   background-color: #E0923C;
+   min-height: 60px;
+}
+
+li {
+   margin-bottom: 15px;
+}
+
+li:last-child {
+   margin-bottom: 0;
+}
+h1, h2, h3, h4 {
+   text-transform: uppercase;
+   font-weight: 200;
+   color: #925514;
+}
+h4 {
+   font-weight: 300;
+}
+
+h1 {
+   font-size: 4rem;
+   padding-bottom: 50px;
+   letter-spacing: 0.3rem;
+}
+
+h2 {
+   font-size: 2.5rem;
+   padding-bottom: 40px;
+   letter-spacing: 0.2rem;
+}  
+
+h3 {
+   font-size: 1.6rem;
+   padding-bottom: 20px;
+   letter-spacing: 0.1rem;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.main-container {
+   flex: 1 1 auto;
+}
+
+.nav-item {
+   font-size: 1rem;
+   margin: 0 30px 0 0;
+}
+
+.nav-link {
+   color: white;
+}
+
+.nav-link:hover {
+   color: #925514;
+   font-weight: 600;
+   transition: all .4s linear;
+}
+
+.nav {
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   height: 60px;
+}
+
+.nav-list {
+   display: flex;
+}
+
+.text-first-content {
+   margin: 30px 0;
+}
+
+.img-fist-content {
+   margin-top: 30px;
+   width: 300px;
+   height: 300px;
+   overflow: hidden;
+   border-radius: 50%;
+}
+
+.profile-photo {
+   width: 100%;
+   height: auto;
+   padding: auto 0;
+}
+
+.programms-skils__row {
+   display: flex;
+   margin:0 0 20px 0;
+}
+
+.prog_list {
+   flex: 0 1 25%;
+   padding: 20px 10px;
+   text-align: center;
+   /*background-color: rgba(106, 72, 215, 0.2);
+   border-radius: 12px;*/
+   margin: 0 10px;
+}
+.prog_list:nth-child(1) {
+   margin: 0 10px 0 0;
+}
+.prog_icon {
+   width: 120px;
+   border-radius: 50%;
+   flex: 0 0 120px;
+   margin: 0 0 20px 0;
+}
+
+.prog_brand {
+   flex: 1 1 auto;
+}
+
+.container-content {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   margin-bottom: 60px;
+}
+
+.summary-text {
+   max-width: 500px;
+}
+.soft-skills-list {
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+.soft-skills-list h3 {
+   min-width: 300px;
+}
+.soft-skills-list ul {
+   flex: 1 1 auto;
+}
+.logo {
+   width: 100px;
+}
+
+.contacts-name, .education-date {
+   font-weight: 600;
+}
+
+.code-text {
+   font-size: 1rem;
+   background: rgb(26, 30, 48);
+   color: white;
+   padding: 20px 0 20px 40px;
+}
+.code-color-1 {
+   color: red;
+}
+.code-color-2 {
+   color: green;
+}
+.code-color-3 {
+   color:#4904df;
+}
+.code-color-4 {
+   color: rgb(4, 214, 4);
+}
+.code-text-block {
+   display: block;
+   align-items: center;
+}
+
+.text-content {
+   flex: 1 1 auto;
+}
+
+.title-content {
+   min-width: 500px;
+}
+
+.contact-image-location {
+   background: url(/assets/icon/location.png);
+}
+.contact-image-phone {
+   background: url(/assets/icon/phone.png);
+}
+.contact-image-mail {
+   background: url(/assets/icon/mail.png);
+}
+.contact-image-name {
+   background: url(/assets/icon/git.png);
+}
+.contact-image {
+   background-position: center left;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+}
+.contacts-list li {
+   display: flex;
+   align-items: center;
+   margin-bottom: 15px;
+}
+
+.footer-info {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   align-items: center;
+   height: 60px;
+}
+
+.footer-info img {
+   fill: white;
+}
+.footer-text {
+   letter-spacing: 0.2rem;
+   font-size: 0.8rem;
+}
+.footer-text > p {
+   color: white;
+}
+
+.text {
+   line-height: 150%;
+   margin: 0 0 40px 0;
+}
