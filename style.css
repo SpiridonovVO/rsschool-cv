@@ -217,16 +217,16 @@ h3 {
 }
 
 .contact-image-location {
-   background: url(/assets/icon/location.png);
+   background: url(../assets/icon/location.png);
 }
 .contact-image-phone {
-   background: url(/assets/icon/phone.png);
+   background: url(../assets/icon/phone.png);
 }
 .contact-image-mail {
-   background: url(/assets/icon/mail.png);
+   background: url(../assets/icon/mail.png);
 }
 .contact-image-name {
-   background: url(/assets/icon/git.png);
+   background: url(../assets/icon/git.png);
 }
 .contact-image {
    background-position: center left;
